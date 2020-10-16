@@ -1,1 +1,10 @@
 toto
+<<<<<<< HEAD
+TATA (SK)
+=======
+<<<<<<< HEAD
+lolo :D
+=======
+Bonjour tout le monde oui voila le premier le fichier 
+>>>>>>> d3a3b378684b32262c998e7c3ab5ba33b444ab14
+>>>>>>> 8b17616971c28be37474b2fd41a688e45440a91b
