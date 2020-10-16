@@ -1,0 +1,6 @@
+toto
+<<<<<<< HEAD
+lolo :D
+=======
+Bonjour tout le monde oui voila le premier le fichier 
+>>>>>>> d3a3b378684b32262c998e7c3ab5ba33b444ab14
