@@ -1,10 +1,16 @@
 toto
 <<<<<<< HEAD
+<<<<<<< HEAD
 TATA (SK)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 8b17616971c28be37474b2fd41a688e45440a91b
 lolo :D
 =======
 Bonjour tout le monde oui voila le premier le fichier 
 >>>>>>> d3a3b378684b32262c998e7c3ab5ba33b444ab14
+<<<<<<< HEAD
+>>>>>>> 8b17616971c28be37474b2fd41a688e45440a91b
+=======
 >>>>>>> 8b17616971c28be37474b2fd41a688e45440a91b
