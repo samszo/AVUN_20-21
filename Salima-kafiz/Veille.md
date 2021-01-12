@@ -34,6 +34,6 @@ J.-R. Xech, Pro en Community management: 63 outils et 11 plans d’action. Vuibe
 [13]
 « Google Books Link ». Consulté le: oct. 15, 2020. [En ligne]. Disponible sur: https://books.google.fr/books?id=XYvmDwAAQBAJ.
 
-Enregistrement de 6 flus RSS sur Netvibes .
+Enregistrement de 6 flux RSS sur Netvibes .
 =======
 >>>>>>> parent of cde71aa... Ch
