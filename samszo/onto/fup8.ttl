@@ -1,0 +1,146 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix fup8: <https://jardindesconnaissances.univ-paris8.fr/onto/fup8#> .
+@prefix teach: <http://linkedscience.org/teach/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix schema: <http://schema.org/>.
+
+<https://jardindesconnaissances.univ-paris8.fr/onto/fup8> a owl:Ontology ;
+    dcterms:title "Formation Université Paris 8" .
+
+fup8:Mention a rdfs:Class ;
+    rdfs:label "Mention" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:SallCours a rdfs:Class ;
+    rdfs:label "Salle de cours" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .    
+
+fup8:Parcours a rdfs:Class ;
+    rdfs:label "Parcours" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:UE a rdfs:Class ;
+    rdfs:label "Unité d'enseignement" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:EC a rdfs:Class ;
+    rdfs:label "Élément constitutif" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs schema:Course ;    
+    vs:term_status "experimental" .
+
+fup8:Etudiant a rdfs:Class ;
+    rdfs:label "Etudiant" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs foaf:Person ;    
+    vs:term_status "experimental" .
+
+fup8:Intervention a rdfs:Class ;
+    rdfs:label "Intervention" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:code a rdf:Property ;
+    rdfs:label "Code EC" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:ects a rdf:Property ;
+    rdfs:label "ects" ;
+    dcterms:description "European Credits Transfer System";
+    rdfs:domain o:Resource ;
+    owl:sameAs teach:ects ;
+    vs:term_status "experimental" .
+
+fup8:semestre a rdf:Property ;
+    rdfs:label "semestre" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+fup8:coef a rdf:Property ;
+    rdfs:label "coefficient" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:vhec a rdf:Property ;
+    rdfs:label "Volume Horaire en présentiel" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:vhch a rdf:Property ;
+    rdfs:label "Volume Horaire chargé" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:cch a rdf:Property ;
+    rdfs:label "Choix du Créneau Horaire" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:pcCM a rdf:Property ;
+    rdfs:label "% Cours magistraux" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:pcTD a rdf:Property ;
+    rdfs:label "% Travaux dirigés" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:pcTP a rdf:Property ;
+    rdfs:label "% Travaux pratiques" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:sd a rdf:Property ;
+    rdfs:label "Seuil dédoublement" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:libre a rdf:Property ;
+    rdfs:label "EC Libre" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:mutuaDst a rdf:Property ;
+    rdfs:label "Mutualiser avec les parcours" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:mutuaSrc a rdf:Property ;
+    rdfs:label "Mutualiser à partir du parcours" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:nbg a rdf:Property ;
+    rdfs:label "Nombre de groupe" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:hasIntervenant a rdf:Property ;
+    rdfs:label "hasIntervenant" ;
+    rdfs:comment "L'intervenant enseignant l'EC" ;
+    rdfs:domain o:Resource ;
+    rdfs:isDefinedBy fup8: .
+
+fup8:hasEtudiant a rdf:Property ;
+    rdfs:label "hasEtudiant" ;
+    rdfs:comment "A comme étudiant" ;
+    rdfs:domain o:Resource ;
+    rdfs:isDefinedBy fup8: .
+
+fup8:hasEC a rdf:Property ;
+    rdfs:label "hasEC" ;
+    rdfs:comment "L'EC enseignée" ;
+    rdfs:domain o:Resource ;
+    rdfs:isDefinedBy fup8: .
