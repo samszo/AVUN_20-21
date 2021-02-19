@@ -713,7 +713,8 @@ $('#infosEtu').on('show.bs.modal', function (e) {
 
     d3.select('#modalEtuTitle').text(selectEtu['Votre prénom']+' '+selectEtu['Votre nom']);
     var url = "http://www.samszo.univ-paris8.fr/DWM/18-19/diigo.php?user="+selectEtu['Votre compte Diigo'];
-    var htm = '<p><a href="'+url+'">'+url+'</a></p>';
+    var urlDirect = "https://www.diigo.com/profile/"+selectEtu['Votre compte Diigo']
+    var htm = '<p><a href="'+url+'">'+url+'</a> <a href="'+urlDirect+'">'+urlDirect+'</a></p>';
     htm += '<iframe id="ifDiigoEtu" title="Diigo étudiant" src="'+url+'"></iframe>';
     d3.select('#diigoTags').html(htm);
     url = "../"+selectEtu['Votre compte GitHub']+"/modele.svg";
@@ -724,6 +725,14 @@ $('#infosEtu').on('show.bs.modal', function (e) {
     var htm = '<p><a href="'+url+'">'+url+'</a></p>';
     htm += '<iframe id="ifZotero" title="Zotero" src="'+url+'"></iframe>';
     d3.select('#zotero').html(htm);
+    
+    url = 'https://www.zotero.org/'+selectEtu['Votre compte Zotero']+'ecosysteme.svg'
+    var htm = '<p><a href="'+url+'">'+url+'</a></p>';
+    htm += '<iframe id="ifZotero" title="Zotero" src="'+url+'"></iframe>';
+    d3.select('#zotero').html(htm);
+
+
+    
  
     /*selectEtu['Votre compte Diigo']
     ht= '<div class="diigo-tags">';
