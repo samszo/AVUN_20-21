@@ -1,0 +1,26 @@
+,
+terme recherche,Liens
+Archives,http://lod.nl.go.kr/ontology/Archives
+ArchiveData,https://w3id.org/GDPRtEXT#ArchiveData
+dataSet,http://purl.org/linked-data/cube#dataSet
+ArchiveRequested,http://purl.org/healthcarevocab/v1#ArchiveRequested
+WebArchive,http://purl.org/spar/fabio/WebArchive
+dtm,http://id.loc.gov/vocabulary/relators/dtm
+Document,http://xmlns.com/foaf/0.1/Document
+EngineeringData,http://iais.fraunhofer.de/vocabs/rami#ApplicationData
+Observation,http://purl.org/linked-data/cube#Observation
+notation,http://www.w3.org/2004/02/skos/core#notation
+DataRepository,http://purl.org/cerif/frapo/DataRepository
+BasicData,http://iais.fraunhofer.de/vocabs/rami#BasicData
+ApplicationData,http://iais.fraunhofer.de/vocabs/rami#ApplicationData
+ResearchPaper,http://purl.org/spar/fabio/ResearchPaper
+Book,http://purl.org/ontology/bibo/Book
+Paper,http://data.semanticweb.org/ns/swc/ontology#Paper
+:Laboratory,http://vivoweb.org/ontology/core#Laboratory
+AcademicDepartment,http://vivoweb.org/ontology/core#AcademicDepartment
+Institute,http://vivoweb.org/ontology/core#Institute
+University,http://vivoweb.org/ontology/core#University
+Research,http://linkedscience.org/lsc/ns#Research
+ResearchGroup,http://purl.org/vocab/aiiso/schema#ResearchGroup
+Consortium,http://vivoweb.org/ontology/core#Consortium
+hasPaperFormat,http://www.ebusiness-unibw.org/ontologies/consumerelectronics/v1#hasPaperFormat
