@@ -1,3 +1,8 @@
+DIIGO / Article annoté : https://www.internetactu.net/2019/11/14/de-lexplicabilite-des-systemes-les-enjeux-de-lexplication-des-decisions-automatisees/
+
+Mes annotations : https://www.diigo.com/user/lounisdjellaoui
+
+
 NETVIBES / Veille technologique : https://www.netvibes.com/lounisdjellaoui1#Veille_technologique
 
 Génération Nouvelles Technologies https://www.netvibes.com/subscribe.php?preconfig=75f0eb66-7747-11eb-8946-a0369fec9884&preconfigtype=module
