@@ -1172,7 +1172,8 @@
        height="16.929535"
        x="-171.15588"
        y="-51.662258"
-       transform="scale(-1)" />
+       transform="scale(-1)"
+       ice="P_0_2_6" />
     <text
        xml:space="preserve"
        style="font-weight:100;font-size:2.53876px;line-height:1.25;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Thin';stroke-width:0.76409;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
@@ -2141,11 +2142,13 @@
        style="fill:none;stroke:#b40000;stroke-width:0.26458300000000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 170.5535,121.82393 -44.45443,67.58919 9.08619,33.40677"
        id="path22832"
-       ice="R_(A_0_1)_(p_0_2)_(c_0_1)" />
+       ice=" {d:'R';o:'A_0_1';s:'P_0_2';p:'C_0_1'}
+" />
     <path
        style="fill:none;stroke:#007000;stroke-width:0.26458300000000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 60.126003,119.07306 34.983428,58.38916 -6.295858,47.32257 h 0.39298"
        id="path22834"
-       ice="R_(A_0_2)_(p_0_1)_(c_0_2)" />
+       ice="{d:'R';o:'A_0_1_2';s:'P_0_1';p:'C_0_2'}
+" />
   </g>
 </svg>
