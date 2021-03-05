@@ -9,3 +9,5 @@ parler de fake news sur les réseaux sociaux
 comparer les platformes et les applications concernants les fake news 
 créer un appli mobile ( site web ) pour detecter les fake news sur R.S et les comparer 
 
+oui
+

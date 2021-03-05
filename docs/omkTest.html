@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ATELIER DISPOSITIFS LITTÉRAIRES NUMÉRIQUES : tests données Omeka</title>
+        <meta name="description" content="ATELIER DISPOSITIFS LITTÉRAIRES NUMÉRIQUES">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://d3js.org/d3.v5.min.js"></script>    
+        <script src="js/adln.js"></script>    
+    </head>
+    <body>
+        <div id='tools'></div>
+        <div id='tableOmeka'></div>            
+
+    </body>
+    <script>
+        let oADLN = new adln({
+            cont:d3.select('#tableOmeka')
+            , apiUrls:[
+                {'titre':'THYP 20-21 groupe 1','url':"https://jardindesconnaissances.univ-paris8.fr/THYP/20-21/g1/omk/api/"}
+                ,{'titre':'THYP 20-21 groupe 2','url':"https://jardindesconnaissances.univ-paris8.fr/THYP/20-21/g2/omk/api/"}
+                ,{'titre':'THYP 20-21 groupe 3','url':"https://jardindesconnaissances.univ-paris8.fr/THYP/20-21/g3/omk/api/"}
+                ,{'titre':'THYP 20-21 groupe 4','url':"https://jardindesconnaissances.univ-paris8.fr/THYP/20-21/g4/omk/api/"}
+                ,{'titre':'THYP 20-21 groupe 5','url':"https://jardindesconnaissances.univ-paris8.fr/THYP/20-21/g5/omk/api/"}
+                ,{'titre':'THYP 20-21 groupe 6','url':"https://jardindesconnaissances.univ-paris8.fr/THYP/20-21/g6/omk/api/"}
+                ,{'titre':'THYP 20-21 groupe 7','url':"https://jardindesconnaissances.univ-paris8.fr/THYP/20-21/g7/omk/api/"}
+                ,{'titre':'THYP 20-21 groupe 8','url':"https://jardindesconnaissances.univ-paris8.fr/THYP/20-21/g8/omk/api/"}
+                ,{'titre':'Polemika','url':"https://polemika.univ-paris8.fr/omk/api/"}
+            ]
+        });
+        oADLN.getListeApi('tools',oADLN.getListeVocabulaire);
+        //oADLN.getListeVocabulaire('tools',oADLN.showData);
+        //oADLN.showData(15);
+        //let rs = oADLN.getItems(15);
+        //console.log(rs);
+
+    </script>
+</html>
