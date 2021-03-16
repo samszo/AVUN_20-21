@@ -112,9 +112,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.71268238"
-     inkscape:cx="396.85039"
-     inkscape:cy="617.38583"
+     inkscape:zoom="1.6253155"
+     inkscape:cx="385.11655"
+     inkscape:cy="959.46912"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -218,7 +218,7 @@
     </g>
     <g
        id="g1593"
-       transform="translate(2.97,27.10125)"
+       transform="translate(2.8072111,27.426828)"
        style="stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none">
       <ellipse
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -240,7 +240,7 @@
        xml:space="preserve"
        id="text1713"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1715);"
-       transform="translate(24.87375,-4.455)"><tspan
+       transform="translate(34.415006,-6.4084669)"><tspan
          x="57.914062"
          y="272.17777"><tspan
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">DataVISIO</tspan></tspan></text>
@@ -400,7 +400,7 @@
     </g>
     <g
        id="g1588"
-       transform="translate(-2.2275,27.4725)"
+       transform="translate(-1.9019222,26.821344)"
        style="stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none">
       <ellipse
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
