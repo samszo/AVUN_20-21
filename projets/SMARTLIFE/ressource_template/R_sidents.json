@@ -1,0 +1,99 @@
+{
+    "o:label": "R\u00e9sidents",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "R\u00e9sidents",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": "Information r\u00e9sident",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                },
+                {
+                    "name": "resource:itemset",
+                    "label": "Item Set"
+                },
+                {
+                    "name": "resource:media",
+                    "label": "Media"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": "Age",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+            "vocabulary_label": "Friend of a Friend",
+            "local_name": "age",
+            "label": "age"
+        },
+        {
+            "o:alternate_label": "Gender",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+            "vocabulary_label": "Friend of a Friend",
+            "local_name": "gender",
+            "label": "gender"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+        "vocabulary_label": "Friend of a Friend",
+        "local_name": "Person",
+        "label": "Person"
+    },
+    "o:title_property": {
+        "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+        "vocabulary_label": "Friend of a Friend",
+        "local_name": "age",
+        "label": "age"
+    },
+    "o:description_property": {
+        "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+        "vocabulary_label": "Friend of a Friend",
+        "local_name": "age",
+        "label": "age"
+    }
+}

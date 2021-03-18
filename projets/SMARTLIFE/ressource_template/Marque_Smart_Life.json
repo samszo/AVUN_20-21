@@ -1,0 +1,131 @@
+{
+    "o:label": "Marque Smart Life",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Marque Smart Life",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource",
+                    "label": "All"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                },
+                {
+                    "name": "resource:itemset",
+                    "label": "Item Set"
+                },
+                {
+                    "name": "resource:media",
+                    "label": "Media"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": "Description",
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource",
+                    "label": "All"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                },
+                {
+                    "name": "resource:itemset",
+                    "label": "Item Set"
+                },
+                {
+                    "name": "resource:media",
+                    "label": "Media"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": "logo",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "resource:media",
+                    "label": "Media"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+            "vocabulary_label": "Friend of a Friend",
+            "local_name": "logo",
+            "label": "logo"
+        },
+        {
+            "o:alternate_label": "images",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "resource:media",
+                    "label": "Media"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+            "vocabulary_label": "Friend of a Friend",
+            "local_name": "img",
+            "label": "image"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+        "vocabulary_label": "Dublin Core",
+        "local_name": "MediaType",
+        "label": "Media Type"
+    },
+    "o:title_property": {
+        "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+        "vocabulary_label": "Friend of a Friend",
+        "local_name": "img",
+        "label": "image"
+    },
+    "o:description_property": {
+        "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+        "vocabulary_label": "Friend of a Friend",
+        "local_name": "img",
+        "label": "image"
+    }
+}
