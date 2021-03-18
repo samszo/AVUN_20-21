@@ -5,5 +5,5 @@ La vidéoverbalisation fait débat : « Blois : "La vidéoverbalisation n'est pa
 Piratage des données : « Les données médicales de 500.000 Français piratées en ligne » https://rmc.bfmtv.com/emission/les-donnees-medicales-de-500-000-francais-piratees-en-ligne-2035972.html.
 
 
-La vidéoverbalisation fait débat : « Blois : "La vidéoverbalisation n'est pas une mitraillette à amendes » Blois : "La vidéoverbalisation n'est pas une mitraillette à amendes" (lanouvellerepublique.fr).
+
 
