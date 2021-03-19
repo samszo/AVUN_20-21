@@ -164,8 +164,7 @@
       - pour les propriétés du vocabulaire
       https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g3/omk/api/properties?vocabulary_id=12
       */
-     let url = "https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g3/omk/api/sites/1";
-
+      //définition des requêtes vers l'API
      let jsonSites = [
             d3.json("https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g3/omk/api/sites")
             , d3.json("https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g4/omk/api/sites")
@@ -173,10 +172,14 @@
             , d3.json("https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g6A/omk/api/sites")
             , d3.json("https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g8-9/omk/api/sites")
         ];
+      //execution des requêtes vers l'API
       Promise.all(jsonSites).then(function(values) {
         console.log(values);
+        //boucle sur les valeurs reçues
         values.forEach((d,i)=>{
-          let titre  = d[0] ? d[0]['o:title'] : ""; 
+          //récupère une propriété ds valeurs
+          let titre  = d[0] ? d[0]['o:title'] : "groupe "+i; 
+          //affiche la propriété dans une balise de la page HTML
           d3.select("#titreSite"+i).text(titre);
         })
 
