@@ -7,19 +7,19 @@
 @prefix belearn: <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g8-9/onto/belearn#
 
 <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g8-9/onto/belearn#> a owl:Ontology ;
-    dcterms:title "blearn" .
+    dcterms:title "belearn" .
 
-theye:Notification a rdfs:Class ;
+belearn:Notification a rdfs:Class ;
     rdfs:label "Notification" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-theye:Addon a rdfs:Class ;
+belearn:Addon a rdfs:Class ;
     rdfs:label "Module" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-theye:Titre a rdf:Property ;
+belearn:Titre a rdf:Property ;
     rdfs:label "Titre" ;
     rdfs:domain o:Resource ;
     owl:sameAs dcterms:title;
