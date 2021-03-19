@@ -5,15 +5,15 @@
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
 <<<<<<< HEAD
-@prefix theye: <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g4/onto/theye#> .
+@prefix theye: <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g6A/onto/smart#> .
 
 
-<https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g4/onto/theye#> a owl:Ontology ;
-    dcterms:title "The Eye" .
+<https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g6A/onto/smart#> a owl:Ontology ;
+    dcterms:title "Smart Life" .
 
 theye:Notification a rdfs:Class ;
 =======
-@prefix theye: <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g6A/onto/smart#> .
+@prefix smart: <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g6A/onto/smart#> .
 
 
 <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g6A/onto/smart#> a owl:Ontology ;
@@ -35,7 +35,7 @@ smart:Addon a rdfs:Class ;
     vs:term_status "experimental" .
 
 <<<<<<< HEAD
-theye:Titre a rdf:Property ;
+smart:Titre a rdf:Property ;
 =======
 smart:Titre a rdf:Property ;
 >>>>>>> 68c8db10a62bb2640f53abbe542747867cc10386
@@ -45,7 +45,7 @@ smart:Titre a rdf:Property ;
     vs:term_status "experimental" .
 
 <<<<<<< HEAD
-plmk:hasAddon a rdf:Property ;
+smart:hasAddon a rdf:Property ;
 =======
 smart:hasAddon a rdf:Property ;
 >>>>>>> 68c8db10a62bb2640f53abbe542747867cc10386
