@@ -15,23 +15,18 @@ smart:Capteurs a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-smart:hasCapteurs a rdf:Property ;
+smart:hasEmplacement a rdf:Property ;
     rdfs:label "id" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-smart:hasCapteurs a rdf:Property ;
-    rdfs:label "type" ;
+smart:hasType a rdf:Property ;
+    rdfs:label "Type" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-smart:hasCapteurs a rdf:Property ;
-    rdfs:label "emplacement" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-smart:hasCapteurs a rdf:Property ;
-    rdfs:label "declancheur" ;
+smart:hasDeclancheur a rdf:Property ;
+    rdfs:label "Declancheur" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -40,23 +35,13 @@ smart:Appareils a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-smart:hasAppareils a rdf:Property ;
-    rdfs:label "id" ;
+smart:hasId a rdf:Property ;
+    rdfs:label "Id" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-smart:hasAppareils a rdf:Property ;
-    rdfs:label "modele" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-smart:hasAppareils a rdf:Property ;
-    rdfs:label "type" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-smart:hasAppareils a rdf:Property ;
-    rdfs:label "emplacement" ;
+smart:hasModele a rdf:Property ;
+    rdfs:label "Modele" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -65,33 +50,33 @@ smart:Residents a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-smart:hasResidents a rdf:Property ;
-    rdfs:label "nom prenom" ;
+smart:hasNomPrenom a rdf:Property ;
+    rdfs:label "Nom Prenom" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-smart:hasResidents a rdf:Property ;
-    rdfs:label "genre" ;
+smart:hasGenre a rdf:Property ;
+    rdfs:label "Genre" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-smart:hasResidents a rdf:Property ;
-    rdfs:label "age" ;
+smart:hasAge a rdf:Property ;
+    rdfs:label "Age" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-smart:hasResidents a rdf:Property ;
-    rdfs:label "preferences" ;
+smart:hasPreferences a rdf:Property ;
+    rdfs:label "Preferences" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-smart:hasResidents a rdf:Property ;
-    rdfs:label "interets" ;
+smart:hasInterets a rdf:Property ;
+    rdfs:label "Interets" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-smart:hasResidents a rdf:Property ;
-    rdfs:label "historique medical" ;
+smart:hasHistoriqueMedical a rdf:Property ;
+    rdfs:label "Historique Medical" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
