@@ -26,7 +26,7 @@ theye:Titre a rdf:Property ;
     owl:sameAs dcterms:title;
     vs:term_status "experimental" .
 
-plmk:hasAddon a rdf:Property ;
+theye:hasAddon a rdf:Property ;
     rdfs:label "A comme module" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
