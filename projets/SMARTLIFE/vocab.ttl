@@ -51,7 +51,12 @@ smart:Residents a rdfs:Class ;
     vs:term_status "experimental" .
 
 smart:hasNomPrenom a rdf:Property ;
-    rdfs:label "Nom Prenom" ;
+    rdfs:label "Nom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasPrenom a rdf:Property ;
+    rdfs:label "Nom" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -60,8 +65,8 @@ smart:hasGenre a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-smart:hasAge a rdf:Property ;
-    rdfs:label "Age" ;
+smart:hasDatedenaissance a rdf:Property ;
+    rdfs:label "Date de naissance" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
