@@ -4,7 +4,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix blearn: <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g8-9/onto/belearn#
+@prefix blearn: <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g8-9/onto/belearn#> .
 
 <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g8-9/onto/belearn#> a owl:Ontology ;
     dcterms:title "BeLearn" .
