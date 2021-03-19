@@ -4,52 +4,45 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-<<<<<<< HEAD
 @prefix smart: <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g6A/onto/smart#> .
 
 
 <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g6A/onto/smart#> a owl:Ontology ;
     dcterms:title "Smart Life" .
 
-theye:Notification a rdfs:Class ;
-=======
-@prefix smart: <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g6A/onto/smart#> .
-
-
-<https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g6A/onto/smart#> a owl:Ontology ;
-    dcterms:title "Smart Life" .
-
-smart:Notification a rdfs:Class ;
->>>>>>> 68c8db10a62bb2640f53abbe542747867cc10386
-    rdfs:label "Notification" ;
+smart:Capteurs a rdfs:Class ;
+    rdfs:label "Capteurs" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-<<<<<<< HEAD
-theye:Addon a rdfs:Class ;
-=======
-smart:Addon a rdfs:Class ;
->>>>>>> 68c8db10a62bb2640f53abbe542747867cc10386
-    rdfs:label "Module" ;
+smart:Appareils a rdfs:Class ;
+    rdfs:label "Appareils" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-<<<<<<< HEAD
+smart:Residents a rdfs:Class ;
+    rdfs:label "Residents" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 smart:Titre a rdf:Property ;
-=======
-smart:Titre a rdf:Property ;
->>>>>>> 68c8db10a62bb2640f53abbe542747867cc10386
     rdfs:label "Titre" ;
     rdfs:domain o:Resource ;
     owl:sameAs dcterms:title;
     vs:term_status "experimental" .
 
-<<<<<<< HEAD
-smart:hasAddon a rdf:Property ;
-=======
-smart:hasAddon a rdf:Property ;
->>>>>>> 68c8db10a62bb2640f53abbe542747867cc10386
-    rdfs:label "A comme module" ;
+smart:hasResidents a rdf:Property ;
+    rdfs:label "age" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasCapteurs a rdf:Property ;
+    rdfs:label "declancheur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasAppareils a rdf:Property ;
+    rdfs:label "type" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
