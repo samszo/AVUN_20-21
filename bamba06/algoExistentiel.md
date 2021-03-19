@@ -9,6 +9,8 @@ Regrouper les éléments graphiques renvoyant au même objet.
 Attribuer une valeur numérique comprise entre 0 et 1 correspondant au niveau de distribution des objets.
 
 d(P, A, C) =
+
             Si (P, A, C) = 0 alors 1
-            Sinon si (P, A, C) = 1 renoyez 0
+            
+            Sinon si (P, A, C) = 1 renvoyez 0
           
