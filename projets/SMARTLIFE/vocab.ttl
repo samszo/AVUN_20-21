@@ -32,7 +32,47 @@ smart:Titre a rdf:Property ;
     vs:term_status "experimental" .
 
 smart:hasResidents a rdf:Property ;
+    rdfs:label "nom prenom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasResidents a rdf:Property ;
+    rdfs:label "genre" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasResidents a rdf:Property ;
     rdfs:label "age" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasResidents a rdf:Property ;
+    rdfs:label "preferences" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasResidents a rdf:Property ;
+    rdfs:label "interets" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasResidents a rdf:Property ;
+    rdfs:label "historique medical" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasCapteurs a rdf:Property ;
+    rdfs:label "id" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasCapteurs a rdf:Property ;
+    rdfs:label "type" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasCapteurs a rdf:Property ;
+    rdfs:label "emplacement" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -42,8 +82,22 @@ smart:hasCapteurs a rdf:Property ;
     vs:term_status "experimental" .
 
 smart:hasAppareils a rdf:Property ;
+    rdfs:label "id" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasAppareils a rdf:Property ;
+    rdfs:label "modele" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasAppareils a rdf:Property ;
     rdfs:label "type" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+smart:hasAppareils a rdf:Property ;
+    rdfs:label "emplacement" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
