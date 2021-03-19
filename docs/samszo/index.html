@@ -9,7 +9,7 @@
     <title>Les données des projets AVUN</title>
       
 
-    
+    <script src="https://d3js.org/d3.v5.min.js"></script>    
     
     <!-- Bootstrap core CSS -->
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -45,6 +45,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
+        <!--
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -60,6 +61,7 @@
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
+        -->
       </div>
     </div>
   </nav>
@@ -68,21 +70,113 @@
 <!-- Begin page content -->
 <main class="flex-shrink-0">
   <div class="container">
-    <h1 class="mt-5">Sticky footer with fixed navbar</h1>
-    <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code class="small">padding-top: 60px;</code> on the <code class="small">main &gt; .container</code>.</p>
-    <p>Back to <a href="../examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>
+    <h1 class="mt-5">AVUN_20-21</h1>
+    <h2 class="mt-5">Les données des étudiants</h2>
+
+    <div class="row row-cols-3 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://samszo.univ-paris8.fr/ChaoticumPapillonae/" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://samszo.univ-paris8.fr/ChaoticumPapillonae/" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://samszo.univ-paris8.fr/ChaoticumPapillonae/" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://samszo.univ-paris8.fr/ChaoticumPapillonae/" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://samszo.univ-paris8.fr/ChaoticumPapillonae/" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+
+    </div>    
   </div>
+
+
+  
 </main>
 
 <footer class="footer mt-auto py-3 bg-light">
   <div class="container">
-    <span class="text-muted">Place sticky footer content here.</span>
+    <span class="text-muted">Mention Humanité Numérique 2020-2021</span>
   </div>
 </footer>
 
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 
+    <script>
+      /*
+      - pour le site
+      https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g3/omk/api/sites      
+      - pour le vocabulaire
+      https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g3/omk/api/vocabularies/12
+      - pour les class du vocabulaire
+      https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g3/omk/api/resource_classes?vocabulary_id=12
+      - pour les propriétés du vocabulaire
+      https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g3/omk/api/properties?vocabulary_id=12
+      */
+     let url = "https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g3/omk/api/sites/1";
+
+     let jsonSites = [
+            d3.json("https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g3/omk/api/sites")
+            , d3.json("https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g4/omk/api/sites")
+            , d3.json("https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g5/omk/api/sites")
+            , d3.json("https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g6A/omk/api/sites")
+            , d3.json("https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g8-9/omk/api/sites")
+        ];
+      Promise.all(jsonSites).then(function(values) {
+        console.Log(values);
+      });
+    </script>
       
   </body>
 </html>
