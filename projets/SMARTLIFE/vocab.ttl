@@ -5,7 +5,7 @@
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
 <<<<<<< HEAD
-@prefix theye: <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g6A/onto/smart#> .
+@prefix smart: <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g6A/onto/smart#> .
 
 
 <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g6A/onto/smart#> a owl:Ontology ;
