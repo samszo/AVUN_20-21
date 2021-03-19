@@ -15,20 +15,54 @@ smart:Capteurs a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+smart:hasCapteurs a rdf:Property ;
+    rdfs:label "id" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasCapteurs a rdf:Property ;
+    rdfs:label "type" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasCapteurs a rdf:Property ;
+    rdfs:label "emplacement" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasCapteurs a rdf:Property ;
+    rdfs:label "declancheur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 smart:Appareils a rdfs:Class ;
     rdfs:label "Appareils" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasAppareils a rdf:Property ;
+    rdfs:label "id" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasAppareils a rdf:Property ;
+    rdfs:label "modele" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasAppareils a rdf:Property ;
+    rdfs:label "type" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasAppareils a rdf:Property ;
+    rdfs:label "emplacement" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 smart:Residents a rdfs:Class ;
     rdfs:label "Residents" ;
     rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-smart:Titre a rdf:Property ;
-    rdfs:label "Titre" ;
-    rdfs:domain o:Resource ;
-    owl:sameAs dcterms:title;
     vs:term_status "experimental" .
 
 smart:hasResidents a rdf:Property ;
@@ -61,43 +95,14 @@ smart:hasResidents a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-smart:hasCapteurs a rdf:Property ;
-    rdfs:label "id" ;
+smart:Titre a rdfs:Class ;
+    rdfs:label "Titre" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-smart:hasCapteurs a rdf:Property ;
-    rdfs:label "type" ;
+smart:Titre a rdf:Property ;
+    rdfs:label "Titre" ;
     rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-smart:hasCapteurs a rdf:Property ;
-    rdfs:label "emplacement" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-smart:hasCapteurs a rdf:Property ;
-    rdfs:label "declancheur" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-smart:hasAppareils a rdf:Property ;
-    rdfs:label "id" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-smart:hasAppareils a rdf:Property ;
-    rdfs:label "modele" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-smart:hasAppareils a rdf:Property ;
-    rdfs:label "type" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-smart:hasAppareils a rdf:Property ;
-    rdfs:label "emplacement" ;
-    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
     vs:term_status "experimental" .
 
