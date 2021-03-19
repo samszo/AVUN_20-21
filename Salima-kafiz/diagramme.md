@@ -24,7 +24,7 @@ Explication des rapports :
 Les medecins surveillent les patients à travers la base de données
 
 
-Les patients pilotent des fonctionnalités au sein de la maison de retraite 
+Les patients pilotent des fonctionnalités au sein de la maison de retraite grâce à l'application 
 
 
 Les médecins accompagnent les patients à travers les données récoltées 
