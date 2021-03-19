@@ -78,7 +78,7 @@
         <div class="card h-100">
           <img src="https://samszo.univ-paris8.fr/ChaoticumPapillonae/" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 id="titreSite0" class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
           <div class="card-footer">
@@ -90,7 +90,7 @@
         <div class="card h-100">
           <img src="https://samszo.univ-paris8.fr/ChaoticumPapillonae/" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 id="titreSite1" class="card-title">Card title</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
           </div>
           <div class="card-footer">
@@ -102,7 +102,7 @@
         <div class="card h-100">
           <img src="https://samszo.univ-paris8.fr/ChaoticumPapillonae/" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 id="titreSite2" class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
           </div>
           <div class="card-footer">
@@ -115,7 +115,7 @@
         <div class="card h-100">
           <img src="https://samszo.univ-paris8.fr/ChaoticumPapillonae/" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 id="titreSite3" class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
           </div>
           <div class="card-footer">
@@ -128,7 +128,7 @@
         <div class="card h-100">
           <img src="https://samszo.univ-paris8.fr/ChaoticumPapillonae/" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 id="titreSite4" class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
           </div>
           <div class="card-footer">
@@ -174,7 +174,12 @@
             , d3.json("https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g8-9/omk/api/sites")
         ];
       Promise.all(jsonSites).then(function(values) {
-        console.Log(values);
+        console.log(values);
+        values.forEach((d,i)=>{
+          let titre  = d[0] ? d[0]['o:title'] : ""; 
+          d3.select("#titreSite"+i).text(titre);
+        })
+
       });
     </script>
       
