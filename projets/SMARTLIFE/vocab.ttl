@@ -56,7 +56,7 @@ smart:hasNomPrenom a rdf:Property ;
     vs:term_status "experimental" .
 
 smart:hasPrenom a rdf:Property ;
-    rdfs:label "Nom" ;
+    rdfs:label "prenom" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
