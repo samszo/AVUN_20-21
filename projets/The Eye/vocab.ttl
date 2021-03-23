@@ -16,7 +16,7 @@ theye:article a rdfs:Class ;
     vs:term_status "experimental" .
 
 theye:lecountenu a rdfs:Class ;
-    rdfs:label "Module" ;
+    rdfs:label "lecountenu" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -26,7 +26,7 @@ theye:footer a rdfs:Class ;
     vs:term_status "experimental" .
 
 theye:laplatformetheeye a rdfs:Class ;
-    rdfs:label "Module" ;
+    rdfs:label "laplatformetheeye" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
