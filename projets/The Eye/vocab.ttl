@@ -10,12 +10,22 @@
 <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g4/onto/theye#> a owl:Ontology ;
     dcterms:title "The Eye" .
 
-theye:Notification a rdfs:Class ;
-    rdfs:label "Notification" ;
+theye:article a rdfs:Class ;
+    rdfs:label "article" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-theye:Addon a rdfs:Class ;
+theye:lecountenu a rdfs:Class ;
+    rdfs:label "Module" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+theye:footer a rdfs:Class ;
+    rdfs:label "footer" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+theye:laplatformetheeye a rdfs:Class ;
     rdfs:label "Module" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
@@ -26,7 +36,19 @@ theye:Titre a rdf:Property ;
     owl:sameAs dcterms:title;
     vs:term_status "experimental" .
 
-theye:hasAddon a rdf:Property ;
+theye:lecountenu a rdf:Property ;
     rdfs:label "A comme module" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+theye:abstract a rdf:Property ;
+    rdfs:label "abstract" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:abstract;
+    vs:term_status "experimental" .
+
+theye:haslaplatformetheeye a rdf:Property ;
+    rdfs:label "A comme module" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
