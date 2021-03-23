@@ -36,9 +36,10 @@ theye:Titre a rdf:Property ;
     owl:sameAs dcterms:title;
     vs:term_status "experimental" .
 
-theye:lecountenu a rdf:Property ;
+theye:subject a rdf:Property ;
     rdfs:label "A comme module" ;
     rdfs:domain o:Resource ;
+     owl:sameAs dcterms:subject;
     vs:term_status "experimental" .
 
 theye:abstract a rdf:Property ;
@@ -50,5 +51,6 @@ theye:abstract a rdf:Property ;
 theye:haslaplatformetheeye a rdf:Property ;
     rdfs:label "A comme module" ;
     rdfs:domain o:Resource ;
+     owl:sameAs dcterms:haslaplatformetheeye;
     vs:term_status "experimental" .
 
