@@ -6,4 +6,11 @@ Chaque distribution correspond à une dimension existentielle, P = physique, A= 
 
 Regrouper les éléments graphiques renvoyant au même objet.
 
-Attribuer une valeur numérique comprise entre 0 et 1 correspondant au niveau de distribution de l'objet.
+Attribuer une valeur numérique comprise entre 0 et 1 correspondant au niveau de distribution des objets.
+
+d(P, A, C) =
+
+            Si (P, A, C) = 0 alors 1
+            
+            Sinon si (P, A, C) = 1 renvoyez 0
+          

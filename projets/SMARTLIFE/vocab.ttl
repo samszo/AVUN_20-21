@@ -1,0 +1,98 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix smart: <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g6A/onto/smart#> .
+
+
+<https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g6A/onto/smart#> a owl:Ontology ;
+    dcterms:title "Smart Life" .
+
+smart:Capteurs a rdfs:Class ;
+    rdfs:label "Capteurs" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasEmplacement a rdf:Property ;
+    rdfs:label "id" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasType a rdf:Property ;
+    rdfs:label "Type" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasDeclancheur a rdf:Property ;
+    rdfs:label "Declancheur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:Appareils a rdfs:Class ;
+    rdfs:label "Appareils" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasId a rdf:Property ;
+    rdfs:label "Id" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasModele a rdf:Property ;
+    rdfs:label "Modele" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:Residents a rdfs:Class ;
+    rdfs:label "Residents" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasNomPrenom a rdf:Property ;
+    rdfs:label "Nom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasPrenom a rdf:Property ;
+    rdfs:label "prenom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasGenre a rdf:Property ;
+    rdfs:label "Genre" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasDatedenaissance a rdf:Property ;
+    rdfs:label "Date de naissance" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasPreferences a rdf:Property ;
+    rdfs:label "Preferences" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasInterets a rdf:Property ;
+    rdfs:label "Interets" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:hasHistoriqueMedical a rdf:Property ;
+    rdfs:label "Historique Medical" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:Titre a rdfs:Class ;
+    rdfs:label "Titre" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+smart:Titre a rdf:Property ;
+    rdfs:label "Titre" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+

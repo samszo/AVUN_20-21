@@ -6,20 +6,41 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.80.0">
-    <title>Cover Template · Bootstrap v5.0</title>
+    <title>Les données des projets AVUN</title>
+      
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
-
+    <script src="https://d3js.org/d3.v5.min.js"></script>    
     
-
     <!-- Bootstrap core CSS -->
-<<<<<<< HEAD
-<link href="assets/js/bootstrap.min.css" rel="stylesheet">
-=======
-<link href="assets/js/bootstrap.min.css" rel="stylesheet">
->>>>>>> 71ca8a81850aadb1114c2f77e6383abd7c820dae
+<link href="https://github.com/samszo/AVUN_20-21/blob/main/docs/smartlife/assets/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+	
+	.container-fluid {
+	padding-left: 3%;
+	}
+	.Titre {
+	   text-align: center;
+	}
+	
+	#text {
+	text-align: center;
+	padding-left: 10%;
+		padding-right: 10%;
+font-size: 24px;
+	}
+	
+	#imageslide0 {
+	padding-right: 2%;
+	padding-left: 2%;
+	height: 13%;
+	}
+	
+	#imageslide1 {
+	padding-right: 2%;
+	padding-left: 2%;
+	}
+	
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -33,40 +54,221 @@
           font-size: 3.5rem;
         }
       }
+	  
+
+	  
+	  .footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
     </style>
 
     
     <!-- Custom styles for this template -->
-    <link href="assets/css/cover.css" rel="stylesheet">
+    <link href="https://github.com/samszo/AVUN_20-21/blob/main/docs/smartlife/assets/css/sticky-footer-navbar.css" rel="stylesheet">
   </head>
-  <body class="d-flex h-100 text-center text-white bg-dark">
+  <body class="d-flex flex-column h-100">
     
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
-    <div>
-      <h3 class="float-md-start mb-0">Cover</h3>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Contact</a>
-      </nav>
+<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Smart Life</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Notre Solution</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#">Qui Somme Nous?</a>
+          </a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
-  </header>
+  </div>
+</nav>
+</header>
 
-  <main class="px-3">
-    <h1>Cover your page.</h1>
-    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
-    </p>
-  </main>
+<!-- Begin page content -->
+<main class="flex-shrink-0">
+<br></br>
 
-  <footer class="mt-auto text-white-50">
-    <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
-  </footer>
-</div>
+              <p id= "text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+<br></br>
+	
+    <h1 class="Titre">Qui somme nous?</h1>
+	<br></br>
+
+    <div class="row row-cols-3 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img id="imageslide" src="https://drive.google.com/uc?id=13sKCBu24COqKQ_0roZSGP9b3TtcICkA-" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 id="titreSite0" class="card-title">Notre Solution</h5>
+            <p id="contSite0" lass="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://drive.google.com/uc?id=1rQkheX282qENWMT71hOVtVLD3O4YeBFU" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 id="titreSite1" class="card-title">Nos Logemements</h5>
+            <p id="contSite1" class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://drive.google.com/uc?id=1e30jXsHonYRe4awD4PES6fjSa_ILG0Q0" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 id="titreSite2" class="card-title">Comment ça marche?</h5>
+            <p id="contSite2" class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </div> 
+
+	
+  </div>
+
+ <br></br>
+    <h1 class="Titre">Pourquoi les immeubles intélligents ?</h1>
+	<br></br>
+          <img id="imageslide1" src="https://intent.tech/wp-content/uploads/2019/06/batiment-connecte-1.jpg" class="card-img-top" alt="...">
+              	<br></br>
+
+			  <p id= "text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 
 
-    
+
+      </div>
+
+    </div> 
+ <br></br>
+    <h1 class="Titre">Votre Séjour</h1>
+	<br></br>
+          <img id="imageslide0" src="https://www.architecture-hospitaliere.fr/wp-content/uploads/2019/01/Scheider-Electric.jpg" class="card-img-top" alt="...">
+              	<br></br>
+
+			  <p id= "text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+
+
+      </div>
+	   <br></br>
+    <h1 class="Titre">Simplicité et Intuitivité</h1>
+	<br></br>
+          <img id="imageslide0" src="https://www.letelegramme.fr/ar/imgproxy.php/images/2019/12/21/l-interface-est-tres-intuitive-permettant-aux-plus_4956480_676x445p.jpg?article=20191221-1012456696&aaaammjj=20191221" class="card-img-top" alt="...">
+              	<br></br>
+
+			  <p id= "text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+  </div>
+  
+</main>
+
+<footer class="footer mt-auto py-3 bg-light">
+      <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Company Name © 2018</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</footer>
+
+
+   
+
+      
   </body>
 </html>

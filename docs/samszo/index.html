@@ -6,10 +6,10 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.80.0">
-    <title>Sticky Footer Navbar Template · Bootstrap v5.0</title>
+    <title>Les données des projets AVUN</title>
       
 
-    
+    <script src="https://d3js.org/d3.v5.min.js"></script>    
     
     <!-- Bootstrap core CSS -->
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -40,11 +40,12 @@
   <!-- Fixed navbar -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Fixed navbar</a>
+      <a class="navbar-brand" href="#">AVUN 20-21</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
+        <!--
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -60,6 +61,7 @@
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
+        -->
       </div>
     </div>
   </nav>
@@ -68,21 +70,145 @@
 <!-- Begin page content -->
 <main class="flex-shrink-0">
   <div class="container">
-    <h1 class="mt-5">Sticky footer with fixed navbar</h1>
-    <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code class="small">padding-top: 60px;</code> on the <code class="small">main &gt; .container</code>.</p>
-    <p>Back to <a href="../examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>
+    <h1 class="mt-5">AVUN_20-21</h1>
+    <h2 class="mt-5">Les données des étudiants</h2>
+
+    <div class="row row-cols-3 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://samszo.univ-paris8.fr/ChaoticumPapillonae/" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 id="titreSite0" class="card-title">Card title</h5>
+            <p id="contSite0" lass="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://samszo.univ-paris8.fr/ChaoticumPapillonae/" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 id="titreSite1" class="card-title">Card title</h5>
+            <p id="contSite1" class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://samszo.univ-paris8.fr/ChaoticumPapillonae/" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 id="titreSite2" class="card-title">Card title</h5>
+            <p id="contSite2" class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://samszo.univ-paris8.fr/ChaoticumPapillonae/" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 id="titreSite3" class="card-title">Card title</h5>
+            <p id="contSite3" class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://samszo.univ-paris8.fr/ChaoticumPapillonae/" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 id="titreSite4" class="card-title">Card title</h5>
+            <p id="contSite4" class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+
+    </div>    
   </div>
+
+
+  
 </main>
 
 <footer class="footer mt-auto py-3 bg-light">
   <div class="container">
-    <span class="text-muted">Place sticky footer content here.</span>
+    <span class="text-muted">Mention Humanité Numérique 2020-2021</span>
   </div>
 </footer>
 
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 
+    <script>
+      /*
+      - pour le site
+      https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g3/omk/api/sites      
+      - pour le vocabulaire
+      https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g3/omk/api/vocabularies/12
+      - pour les class du vocabulaire
+      https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g3/omk/api/resource_classes?vocabulary_id=12
+      - pour les propriétés du vocabulaire
+      https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g3/omk/api/properties?vocabulary_id=12
+      */
+     let urlOmk = "https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/";
+     let projets = [
+       {'idVocab':12, 'idG':'g3'}
+       ,{'idVocab':13, 'idG':'g4'}
+       ,{'idVocab':4, 'idG':'g5'}
+       ,{'idVocab':14, 'idG':'g6A'}
+       ,{'idVocab':7, 'idG':'g8-9'}
+      ];
+     let urlVocabs = [
+      , "/omk/api/vocabularies/"
+      , "/omk/api/resource_classes?vocabulary_id="
+      , "/omk/api/properties?vocabulary_id="
+    ]
+      //définition des requêtes vers l'API
+     let jsonSites = [];
+     projets.forEach(p=>{
+      jsonSites.push(d3.json(urlOmk+p['idG']+"/omk/api/sites"));
+    })
+      //execution des requêtes vers l'API
+      Promise.all(jsonSites).then(function(values) {
+        console.log(values);
+        //boucle sur les valeurs reçues
+        values.forEach((d,i)=>{
+          //récupère une propriété ds valeurs 
+          let titre  = d[0] ? d[0]['o:title'] : "groupe "+i; 
+          //affiche la propriété dans une balise de la page HTML
+          d3.select("#titreSite"+i).text(titre);
+          //récupère les éléments de vocabulaires
+          let arrJson = [];
+          urlVocabs.forEach(u=>{
+            arrJson.push(d3.json(urlOmk+projets[i]['idG']+u+projets[i]['idVocab']));
+          });
+          Promise.all(arrJson).then(function(datas) {
+              console.log(datas);
+              //affiche le titre du vocabulaire
+              d3.select("#contSite"+i).append('h4').text(datas[0]["o:label"]);
+              //affiche les class
+              d3.select("#contSite"+i).selectAll('h5').data(datas[1]).enter().append('h5').text(d=>d["o:label"]);
+              d3.select("#contSite"+i).selectAll('h6').data(datas[2]).enter().append('h6').text(d=>d["o:label"]);
+          })
+
+        })
+
+      });
+    </script>
       
   </body>
 </html>
