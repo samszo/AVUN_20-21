@@ -30,6 +30,17 @@ theye:laplatformetheeye a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+theye:forme a rdfs:Class ;
+    rdfs:label "forme" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+theye:question a rdf:Property ;
+    rdfs:label "question" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:format;
+    vs:term_status "experimental" .
+
 theye:Titre a rdf:Property ;
     rdfs:label "Titre" ;
     rdfs:domain o:Resource ;
