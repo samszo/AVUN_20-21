@@ -6,26 +6,152 @@
 @prefix o: <http://omeka.org/s/vocabs/o#> .
 @prefix blearn: <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g8-9/onto/blearn#> .
 
-<https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g8-9/onto/belearn#> a owl:Ontology ;
+<https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g8-9/onto/blearn#> a owl:Ontology ;
     dcterms:title "Be Learn" .
 
-blearn:Notification a rdfs:Class ;
-    rdfs:label "Notification" ;
+blearn:Université a rdfs:Class ;
+    rdfs:label "Université" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-blearn:Addon a rdfs:Class ;
-    rdfs:label "Module" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-blearn:Titre a rdf:Property ;
-    rdfs:label "Titre" ;
+blearn:Batiment a rdf:Property ;
+    rdfs:label "Numero du Batiment" ;
     rdfs:domain o:Resource ;
     owl:sameAs dcterms:title;
     vs:term_status "experimental" .
 
-blearn:hasAddon a rdf:Property ;
-    rdfs:label "A comme module" ;
+blearn:Salle a rdf:Property ;
+    rdfs:label "Numero de la salle" ;
     rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:Plateforme a rdfs:Class ;
+    rdfs:label "Plateforme" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+blearn:ID a rdf:Property ;
+    rdfs:label "Identifiant" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:Passeword a rdf:Property ;
+    rdfs:label "Mot de passe" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:Planning a rdfs:Class ;
+    rdfs:label "Planning" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+blearn:Date a rdf:Property ;
+    rdfs:label "Date du cours" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:Heure a rdf:Property ;
+    rdfs:label "Heure du cours" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:Module a rdf:Property ;
+    rdfs:label "Module" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:Etudiant a rdfs:Class ;
+    rdfs:label "Etudiant" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+blearn:Professeur a rdfs:Class ;
+    rdfs:label "Professeur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+blearn:Administration a rdf:Property ;
+    rdfs:label "Administration" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:Technicien a rdf:Property ;
+    rdfs:label "Technicien" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:Nom a rdf:Property ;
+    rdfs:label "Nom" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:Prenom a rdf:Property ;
+    rdfs:label "Prenom" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:NumeroEtudiant a rdf:Property ;
+    rdfs:label "Numero etudiant" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:Formation a rdf:Property ;
+    rdfs:label "Formation" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:Animer a rdf:Property ;
+    rdfs:label "Animer les cours" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+
+blearn:Consulter a rdf:Property ;
+    rdfs:label "Consulter les cours" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:Superviser a rdf:Property ;
+    rdfs:label "Superviser" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:Gestion a rdf:Property ;
+    rdfs:label "Gestion de la plateforme" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:Son a rdf:Property ;
+    rdfs:label "Son" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:Image a rdf:Property ;
+    rdfs:label "Image" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
+    vs:term_status "experimental" .
+
+blearn:RV a rdf:Property ;
+    rdfs:label "Réalité virtuelle" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs dcterms:title;
     vs:term_status "experimental" .
