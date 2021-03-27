@@ -1,12 +1,11 @@
 
-**L'algorithme qui permet de générernes dimensions existentielles des objets se fait en suivant les étapes suivantes :
+**L'algorithme qui permet de générer les dimensions existentielles des objets se fait en suivant les étapes suivantes :
 
 -->la distribution des objets
 P = Physique
 A = Acteur
 C = Concept
 R = Rapport
-
 
 --> création des objets "P"
 
@@ -27,7 +26,6 @@ A_1
 
 A_2
 
-
 --> création des objets "C"
 
 C_0 c'est le concept mére de tous les autres concepts 
@@ -37,7 +35,6 @@ si C_0_1 alors Ce concept est la fille du C_0, le cas pour que les autres concep
 jusqu'a C_0_n 
 
 finsi 
-
 
 --> Création des rapports
 
