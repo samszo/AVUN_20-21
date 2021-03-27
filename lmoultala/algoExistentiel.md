@@ -1,5 +1,5 @@
 
-**L'algorithme qui permet de générer les dimensions existentielles des objets se fait en suivant les étapes suivantes :
+**L'algorithme qui permet de générer les dimensions existentielles des objets se fait de la maniére suivante :
 
 -->la distribution des objets
 P = Physique
@@ -16,7 +16,6 @@ P_0 englobe P_0_1
 P_0_1 englobe P_0_2
 
 Et même principe pour les autres "P"
-
 
 --> création des objets "A" 
 
