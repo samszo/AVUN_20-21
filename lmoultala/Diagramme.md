@@ -19,8 +19,8 @@ Notre diagramme se compose de 3 dimensions:
 
 **Explication des rapports : 
 
- Les data-analyst traite les données d'une base de données existante
+ Le data-analyst traite les données d'une base de données existante
 
- Les data-scientist crée des algorithme de prédiction des mots clés ou des données manquentes.
+ Le data-scientist crée des algorithme de prédiction des mots clés ou des données manquentes.
 
  L'équipe marketing utliste ces données pour les utiliser dans le réferencement du site ou bien le ciblage publicitaire.
