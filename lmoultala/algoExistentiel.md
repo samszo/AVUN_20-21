@@ -2,10 +2,14 @@
 **L'algorithme qui permet de générer les dimensions existentielles des objets se fait de la maniére suivante :
 
 -->la distribution des objets
-P = Physique, 
-A = Acteur, 
-C = Concept, 
+P = Physique
+
+A = Acteur
+
+C = Concept
+
 R = Rapport
+
 
 --> création des objets "P"
 
